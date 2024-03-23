@@ -1,28 +1,33 @@
-- Cài đặt nodejs và npm tại https://nodejs.org/en
+Step 1: Install nodejs và npm t https://nodejs.org/en
 
-- Tải file và lưu ở desktop
+Step 2: Download this repo and leave at Desktop
 
-- Truy cập github.com tạo repository với tên tea-xyz-quest (Phải để repo public)
+Step 3: Access github.com and create repo tea-xyz-quest (Must be public repo)
 
-- Truy cập https://www.npmjs.com để tạo tài khoản
+Step 4: Access https://www.npmjs.com to create account
 
-- Sửa file package.json, theo format
-  - name => @username_npm/tea-xyz-quest 
-  - author => @username_npm
-  - repository => link tới repo github vừa tạo
+Step 5: Edit package.json follow below:
 
-- Truy cập repo github vừa tạo và upload cả folder vừa sửa lên https://github.com/daominhhiep/tea-xyz-quest/upload
+- name => @username_npm/tea-xyz-quest
+- author => @username_npm
+- repository => repo link just created above
 
-- Mở terminal, gõ lệnh "npm -v" để kiểm tra xem đã cài đặt thành công npm ở bước 1 chưa
+Step 6: Upload folder to github, link will be like that: https://github.com/thiendoan2212/tea-xyz-quest/upload
 
-- Gõ tiếp lệnh "cd Desktop/tea-xyz-quest" để trỏ tới thư mục code 
+Step 7: Open terminal, run "npm -v" to check if npm is installed (Step 1)
 
-- "npm login" => Có 1 đường dẫn để bấm vào sẽ mở trình duyệt dẫn tới web login npm
+Step 8: Run cmd "cd Desktop/tea-xyz-quest" in terminal
 
-- Sau khi login thành công gõ lệnh "npm publish --access public" để public package lên npm publish. Truy cập npm để check VD: https://www.npmjs.com/package/@daominhhiep/tea-xyz-quest
+Step 9: Run "npm login" to login into https://npmjs.com
 
-- Truy cập app.tea.xyz => Register a New OSS Project
+Step 10: After login successfully, run cmd "npm publish --access public" to public this repo to npmjs.
+The link will be: https://www.npmjs.com/package/@thiendoan2212/tea-xyz-quest
 
-- Tìm kiếm tên package vừa tạo. VD: @daominhhiep/tea-xyz-quest . Bước này có thể mất tới 2-3 ngày để package mới xuất hiện trên hệ thống của tea.xyz
+Step 11: Access app.tea.xyz => Register a New OSS Project
 
-- Sau đó tea sẽ cho 1 file có tên tea.yaml, tải về và quay lại repo github, upload tiếp file đó lên là xong 
+Step 13: Find your package name. Ex: @thiendoan2212/tea-xyz-quest.
+Note: Maybe take 2-3 days so that your package sync to system tea.xyz
+
+Step 14: Tea will give you a file name tea.yaml, download and upload it to repo github.
+
+Done

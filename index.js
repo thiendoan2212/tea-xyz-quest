@@ -1,4 +1,4 @@
-module.exports = function() {
-  console.log('tea.xyz');
+module.exports = function () {
+  console.log('Join quest tea.xyz');
   return;
 };
